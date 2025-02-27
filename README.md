@@ -27,21 +27,6 @@ This project implements a Named Entity Recognition (NER) solution for automatica
 
 This project creates a machine learning solution that extracts product specifications from unstructured text. It uses SpaCy's NER capabilities to identify and label entities in German text. The solution is packaged as a Dockerized REST API that can be easily deployed and integrated with other systems.
 
-## Project Structure
-
-```
-.
-├── app.py                  # FastAPI application
-├── product_ner.py          # Core NER implementation
-├── Dockerfile              # Docker configuration
-├── docker-compose.yml      # Docker Compose configuration
-├── requirements.txt        # Python dependencies
-├── data/                   # Directory for training data
-├── model/                  # Directory for trained models
-├── tests/                  # Unit and integration tests
-└── README.md               # This file
-```
-
 ## Getting Started
 
 ### Prerequisites
